@@ -34,7 +34,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                        <label for="nombre">Nombre</label><b> (*)</b>
+                                        <label for="nombre">Nombre <sup class="text-danger">(*)</sup></label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="bi bi-building"></i></span>
                                             <input id="nombre" type="text" class="form-control"
@@ -49,7 +49,7 @@
 
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                        <label for="email">Email</label><b> (*)</b>
+                                        <label for="email">Email <sup class="text-danger">(*)</sup></label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="bi bi-envelope"></i></span>
                                             <input id="email" type="email" class="form-control"
@@ -64,7 +64,7 @@
 
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                        <label for="telefono">Telefono</label><b> (*)</b>
+                                        <label for="telefono">Telefono <sup class="text-danger">(*)</sup></label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="bi bi-telephone"></i></span>
                                             <input id="telefono" type="text" class="form-control"
@@ -79,7 +79,7 @@
 
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                        <label for="divisa">Divisa</label><b> (*)</b>
+                                        <label for="divisa">Divisa <sup class="text-danger">(*)</sup></label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="bi bi-cash-stack"></i></span>
                                             <select id="divisa" class="form-select" name="divisa" required>
@@ -103,7 +103,7 @@
 
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <label for="direccion">Direccion</label><b> (*)</b>
+                                        <label for="direccion">Direccion <sup class="text-danger">(*)</sup></label>
                                         <div class="input-group mb-3">
                                             <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
                                             <input id="direccion" type="text" class="form-control"
