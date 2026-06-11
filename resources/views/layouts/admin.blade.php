@@ -95,12 +95,12 @@
                                 </a>
                             </li>
 
-                            {{-- <li class="sidebar-item {{ request()->routeIs('admin.roles.*') ? 'active' : '' }}">
+                            <li class="sidebar-item {{ request()->routeIs('admin.roles.*') ? 'active' : '' }}">
                                 <a href="{{ route('admin.roles.index') }}" class='sidebar-link'>
                                     <i class="bi bi-shield-lock"></i>
                                     <span>Roles</span>
                                 </a>
-                            </li> --}}
+                            </li> 
 
                             {{-- <li class="sidebar-item {{ request()->routeIs('admin.users.*') ? 'active' : '' }}">
                                 <a href="{{ route('admin.users.index') }}" class='sidebar-link'>
